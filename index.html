@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>有限会社シービーシー (CBC) | 地域再生・組織開発</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .hero-bg {
+            background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 100%);
+        }
+        /* スティッキーナビ：初期は非表示 */
+        #sticky-nav {
+            transform: translateY(-100%);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        #sticky-nav.visible {
+            transform: translateY(0);
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+        /* アンカーリンクのオフセット補正 */
+        .section-anchor {
+            scroll-margin-top: 80px;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans antialiased leading-relaxed">
+
+    <!-- スクロール追従型ナビゲーション -->
+    <nav id="sticky-nav" class="fixed top-0 left-0 right-0 z-50 bg-white shadow-md border-b border-gray-100">
+        <div class="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
+            <span class="text-blue-800 font-bold text-sm tracking-wide">有限会社シービーシー</span>
+            <ul class="flex gap-8 text-sm font-medium text-gray-600">
+                <li><a href="#strengths" class="hover:text-blue-700 transition-colors duration-200 border-b-2 border-transparent hover:border-blue-600 pb-0.5">私たちの強み</a></li>
+                <li><a href="#achievements" class="hover:text-blue-700 transition-colors duration-200 border-b-2 border-transparent hover:border-blue-600 pb-0.5">業務実績</a></li>
+                <li><a href="#about" class="hover:text-blue-700 transition-colors duration-200 border-b-2 border-transparent hover:border-blue-600 pb-0.5">会社概要</a></li>
+                <li><a href="#contact" class="bg-blue-700 text-white px-4 py-1.5 rounded-full hover:bg-blue-800 transition-colors duration-200 text-xs">お問い合わせ</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="hero" class="hero-bg text-white py-36 px-6 text-center shadow-lg">
+        <div class="max-w-4xl mx-auto">
+            <p class="text-sm font-light tracking-widest uppercase text-blue-200 mb-6">有限会社シービーシー CBC Co., Ltd.</p>
+            <h1 class="text-4xl md:text-5xl font-bold mb-8 tracking-tight leading-snug">経験とアイディアで一歩を踏み出す</h1>
+            <p class="text-lg md:text-xl font-light leading-loose text-blue-100">
+                食の現場から経営戦略まで。<br>
+                地域の「潜在価値」を掘り起こし、確かなデータと実行力で<br class="hidden md:inline">
+                「自走する地域ビジネス」へと導く実践型パートナーです。
+            </p>
+            <div class="mt-12 flex justify-center gap-6 text-sm">
+                <a href="#strengths" class="bg-white text-blue-800 px-7 py-3 rounded-full font-semibold hover:bg-blue-50 transition-colors duration-200 shadow">私たちの強みを見る</a>
+                <a href="#contact" class="border border-white text-white px-7 py-3 rounded-full font-semibold hover:bg-white hover:text-blue-800 transition-colors duration-200">お問い合わせ</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-5xl mx-auto px-8 py-24 space-y-28">
+
+        <!-- 代表メッセージ -->
+        <section>
+            <h2 class="text-3xl font-bold text-gray-900 border-b-2 border-blue-600 pb-3 mb-10">代表メッセージ</h2>
+            <div class="bg-white p-10 md:p-14 rounded-2xl shadow-sm border border-gray-100 text-lg space-y-6 leading-loose">
+                <p>これまでに出会ったたくさんの事例は、地域の可能性を考える上でとても大切な「広い視点」を私に与えてくれました。</p>
+                <p>ひとつの地域での企画から実行までの流れを、そこだけの成功事例で終わらせてしまうのはもったいないと感じています。</p>
+                <p>私たちはこれらの取り組みを「仕組み（フォーマット）」としてまとめ、全国へ広げていきます。しかし、ただ仕組みを当てはめるだけでなく、<strong>地元に最適な形で根付かせていく</strong>プロセスと、事業の<strong>継続性を重視</strong>しています。</p>
+                <p>一過性のイベントで終わらせず、最終的に<strong>地元が自走できるサポート</strong>まで伴走し抜く。そうすることで、日本各地の持続可能な発展に貢献できる環境を作っていきたいと考えています。</p>
+            </div>
+        </section>
+
+        <!-- 私たちの強み -->
+        <section id="strengths" class="section-anchor">
+            <h2 class="text-3xl font-bold text-gray-900 border-b-2 border-blue-600 pb-3 mb-10">私たちの強み</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-2xl shadow-sm border-t-4 border-blue-500 hover:shadow-md transition-shadow duration-300">
+                    <h3 class="text-xl font-bold mb-4 text-blue-900">品質管理と財務マネジメント</h3>
+                    <p class="text-sm leading-relaxed text-gray-600">海外ビジネスや外資系企業での経営実績を活かし、世界基準の衛生管理（HACCP等）導入や、データに基づく緻密な事業計画の立案をサポートします。</p>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-sm border-t-4 border-blue-500 hover:shadow-md transition-shadow duration-300">
+                    <h3 class="text-xl font-bold mb-4 text-blue-900">伝統と最新技術の融合</h3>
+                    <p class="text-sm leading-relaxed text-gray-600">地域の伝統産業にNFTやアプリなどのテクノロジーを掛け合わせ、新たな関係人口の創出と持続可能なコミュニティ形成を実現します。</p>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-sm border-t-4 border-blue-500 hover:shadow-md transition-shadow duration-300">
+                    <h3 class="text-xl font-bold mb-4 text-blue-900">強みを最大化する組織開発</h3>
+                    <p class="text-sm leading-relaxed text-gray-600">グローバル認定コーチとして、人材の「才能」を科学的に分析。自発的で突破力のあるチームビルディングを行い、組織の底上げを図ります。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 業務実績 -->
+        <section id="achievements" class="section-anchor">
+            <h2 class="text-3xl font-bold text-gray-900 border-b-2 border-blue-600 pb-3 mb-10">業務実績</h2>
+            <ul class="space-y-8">
+                <li class="bg-white p-8 md:p-10 rounded-2xl shadow-sm border-l-4 border-blue-600 hover:shadow-md transition-shadow duration-300">
+                    <h3 class="text-lg font-bold text-gray-900 mb-3">水産加工場のHACCP認証・事業計画立案（地域再生マネージャー）</h3>
+                    <p class="text-gray-600 leading-relaxed">地方自治体にて、対米輸出に向けたHACCP（米国基準）認証の体制構築を主導。現場の教育プログラム策定から、国の関連機関へ向けた投資対効果などの事業計画立案まで一気通貫で伴走しています。</p>
+                </li>
+                <li class="bg-white p-8 md:p-10 rounded-2xl shadow-sm border-l-4 border-blue-600 hover:shadow-md transition-shadow duration-300">
+                    <h3 class="text-lg font-bold text-gray-900 mb-3">NFTを活用した特産品の販売・コミュニティ形成サポート</h3>
+                    <p class="text-gray-600 leading-relaxed">地元農家と協働し「農産物の年間オーナー制度（NFT）」を展開。デジタル技術と現地でのリアルな農業体験を掛け合わせ、動画配信等も活用しながら県外からの継続的な関係人口を創出しています。</p>
+                </li>
+                <li class="bg-white p-8 md:p-10 rounded-2xl shadow-sm border-l-4 border-blue-600 hover:shadow-md transition-shadow duration-300">
+                    <h3 class="text-lg font-bold text-gray-900 mb-3">海外アプリメーカーとの観光アプリ開発提案</h3>
+                    <p class="text-gray-600 leading-relaxed">グローバルな知見を活かし、海外メーカーと連携したインバウンド・国内観光向けアプリを提案。地域の観光資源をデジタル上で可視化し、新たな体験価値を生み出します。</p>
+                </li>
+                <li class="bg-white p-8 md:p-10 rounded-2xl shadow-sm border-l-4 border-blue-600 hover:shadow-md transition-shadow duration-300">
+                    <h3 class="text-lg font-bold text-gray-900 mb-3">企業向けマネジメント研修（強み開発・組織開発）</h3>
+                    <p class="text-gray-600 leading-relaxed">国内大手メーカーのマネジメント層に対し、個人の「資質」を言語化し活用するワークショップを主催。適材適所の人員配置やチーム力向上を支援しており、地域の事業体や行政組織にも応用可能です。</p>
+                </li>
+            </ul>
+        </section>
+
+        <!-- 代表プロフィール & 会社概要 -->
+        <section id="about" class="section-anchor grid md:grid-cols-2 gap-16">
+            <div>
+                <h2 class="text-2xl font-bold text-gray-900 border-b-2 border-blue-600 pb-3 mb-10">代表プロフィール</h2>
+                <h3 class="text-xl font-bold mb-4">代表取締役　米永 憲司</h3>
+                <p class="text-sm text-gray-600 mb-6 leading-relaxed">
+                    1963年生まれ。国内大手食品メーカー、欧州系外資食品企業、北米拠点の食品商社などで、R&Dからサプライチェーンマネジメント、企業経営まで幅広く歴任。30年以上のグローバルかつ実務的なマネジメント経験を持つ。現在は兵庫県宝塚市を拠点に、全国各地で地域創生プロジェクトを推進中。
+                </p>
+                <div class="bg-gray-50 p-6 rounded-xl border border-gray-200 text-sm text-gray-700 leading-loose">
+                    <strong class="text-gray-900 block mb-2">保有資格・スキル</strong>
+                    ・グローバル認定ストレングスコーチ<br>
+                    ・車両系建設機械運転技能講習修了<br>
+                    ・TOEIC 920<br>
+                    ・動画撮影・編集プロモーション制作
+                </div>
+            </div>
+            <div>
+                <h2 class="text-2xl font-bold text-gray-900 border-b-2 border-blue-600 pb-3 mb-10">会社概要</h2>
+                <table class="w-full text-sm text-left text-gray-700">
+                    <tbody>
+                        <tr class="border-b border-gray-100"><th class="py-4 font-semibold w-1/3 text-gray-900">会社名</th><td class="py-4">有限会社シービーシー</td></tr>
+                        <tr class="border-b border-gray-100"><th class="py-4 font-semibold text-gray-900">代表者</th><td class="py-4">代表取締役　米永 憲司</td></tr>
+                        <tr class="border-b border-gray-100"><th class="py-4 font-semibold text-gray-900">所在地</th><td class="py-4">〒665-0803<br>兵庫県宝塚市花屋敷つつじガ丘1番20号</td></tr>
+                        <tr><th class="py-4 font-semibold align-top text-gray-900">事業内容</th><td class="py-4 leading-relaxed">・経営コンサルタント業務<br>・人材育成に関するコンサルティング業務<br>・Webコンテンツ、動画、映像等の配信に関する企画、制作及び管理</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- ご相談・お問い合わせ -->
+        <section class="bg-blue-50 px-10 py-16 md:px-16 md:py-20 rounded-2xl text-center border border-blue-100">
+            <h2 class="text-3xl font-bold text-blue-900 mb-6">まずは、お気軽な「対話」から始めませんか。</h2>
+            <p class="text-gray-600 mb-10 max-w-2xl mx-auto leading-loose">
+                地域の可能性を形にするためには、現場の「リアルな声」をお聞きすることが出発点です。<br>
+                「何から手をつければいいか分からない」「まだ構想段階だ」といったご相談でも大歓迎です。<br>
+                オンラインでのご相談や現地へのご訪問など柔軟に対応いたします。
+            </p>
+            <div class="inline-block bg-white px-10 py-8 rounded-xl shadow-sm text-left">
+                <p class="text-lg mb-4 font-bold text-gray-900">直接ご連絡の場合</p>
+                <p class="text-gray-700 text-xl mb-2"><span class="text-xs text-gray-400 mr-2 uppercase tracking-widest">Email</span> <strong>info@cbc2001.com</strong></p>
+                <p class="text-gray-700 text-xl"><span class="text-xs text-gray-400 mr-2 uppercase tracking-widest">Tel</span> <strong>080-3739-1963</strong></p>
+            </div>
+        </section>
+
+        <!-- コンタクトフォーム -->
+        <section id="contact" class="section-anchor">
+            <h2 class="text-3xl font-bold text-gray-900 border-b-2 border-blue-600 pb-3 mb-12">ご相談・お問い合わせフォーム</h2>
+
+            <?php if (!empty($_GET['sent'])): ?>
+            <div class="bg-green-50 border border-green-200 text-green-800 px-8 py-6 rounded-xl mb-10 text-center">
+                <p class="text-lg font-semibold mb-1">お問い合わせを受け付けました。</p>
+                <p class="text-sm">内容を確認の上、担当者よりご連絡いたします。しばらくお待ちください。</p>
+            </div>
+            <?php endif; ?>
+
+            <?php if (!empty($_GET['error'])): ?>
+            <div class="bg-red-50 border border-red-200 text-red-800 px-8 py-6 rounded-xl mb-10 text-center">
+                <p class="text-lg font-semibold mb-1">送信に失敗しました。</p>
+                <p class="text-sm">お手数ですが、直接メール（info@cbc2001.com）にてご連絡ください。</p>
+            </div>
+            <?php endif; ?>
+
+            <form action="contact.php" method="POST" class="bg-white rounded-2xl shadow-sm border border-gray-100 p-10 md:p-14 space-y-8 max-w-3xl mx-auto">
+
+                <div>
+                    <label for="name" class="block text-sm font-semibold text-gray-700 mb-2">お名前 <span class="text-red-500">*</span></label>
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        required
+                        placeholder="例：山田 太郎"
+                        class="w-full border border-gray-200 rounded-xl px-5 py-4 text-base focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition placeholder-gray-300"
+                    >
+                </div>
+
+                <div>
+                    <label for="municipality" class="block text-sm font-semibold text-gray-700 mb-2">自治体名・所属組織名 <span class="text-red-500">*</span></label>
+                    <input
+                        type="text"
+                        id="municipality"
+                        name="municipality"
+                        required
+                        placeholder="例：〇〇県△△市、または企業名・団体名"
+                        class="w-full border border-gray-200 rounded-xl px-5 py-4 text-base focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition placeholder-gray-300"
+                    >
+                </div>
+
+                <div>
+                    <label for="email" class="block text-sm font-semibold text-gray-700 mb-2">メールアドレス <span class="text-red-500">*</span></label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        required
+                        placeholder="例：example@city.lg.jp"
+                        class="w-full border border-gray-200 rounded-xl px-5 py-4 text-base focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition placeholder-gray-300"
+                    >
+                </div>
+
+                <div>
+                    <label for="message" class="block text-sm font-semibold text-gray-700 mb-2">ご相談内容 <span class="text-red-500">*</span></label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        required
+                        rows="7"
+                        placeholder="ご相談内容を自由にご記載ください。構想段階のご相談でも歓迎です。"
+                        class="w-full border border-gray-200 rounded-xl px-5 py-4 text-base focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition resize-none placeholder-gray-300"
+                    ></textarea>
+                </div>
+
+                <p class="text-xs text-gray-400 leading-relaxed">
+                    ご入力いただいた個人情報は、お問い合わせへの回答および弊社サービスのご案内にのみ使用し、第三者への提供は行いません。
+                </p>
+
+                <div class="text-center pt-2">
+                    <button
+                        type="submit"
+                        class="bg-blue-700 text-white px-14 py-4 rounded-full text-base font-semibold hover:bg-blue-800 active:scale-95 transition-all duration-200 shadow-md hover:shadow-lg"
+                    >
+                        送信する
+                    </button>
+                </div>
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="bg-gray-900 text-gray-400 py-10 text-center text-sm">
+        <p class="mb-2 font-medium text-gray-300">有限会社シービーシー</p>
+        <p class="text-xs">&copy; 2026 CBC Co., Ltd. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        // スクロール追従ナビゲーション
+        const nav = document.getElementById('sticky-nav');
+        const hero = document.getElementById('hero');
+
+        const observer = new IntersectionObserver(
+            ([entry]) => {
+                if (!entry.isIntersecting) {
+                    nav.classList.add('visible');
+                } else {
+                    nav.classList.remove('visible');
+                }
+            },
+            { threshold: 0.1 }
+        );
+
+        observer.observe(hero);
+    </script>
+
+</body>
+</html>
