@@ -9,7 +9,6 @@
         .hero-bg {
             background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 100%);
         }
-        /* スティッキーナビ：初期は非表示 */
         #sticky-nav {
             transform: translateY(-100%);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -20,7 +19,6 @@
         html {
             scroll-behavior: smooth;
         }
-        /* アンカーリンクのオフセット補正 */
         .section-anchor {
             scroll-margin-top: 80px;
         }
@@ -156,87 +154,20 @@
             </div>
         </section>
 
-        <!-- コンタクトフォーム -->
+        <!-- Googleフォーム -->
         <section id="contact" class="section-anchor">
             <h2 class="text-3xl font-bold text-gray-900 border-b-2 border-blue-600 pb-3 mb-12">ご相談・お問い合わせフォーム</h2>
-
-            <?php if (!empty($_GET['sent'])): ?>
-            <div class="bg-green-50 border border-green-200 text-green-800 px-8 py-6 rounded-xl mb-10 text-center">
-                <p class="text-lg font-semibold mb-1">お問い合わせを受け付けました。</p>
-                <p class="text-sm">内容を確認の上、担当者よりご連絡いたします。しばらくお待ちください。</p>
+            <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 md:p-10 max-w-3xl mx-auto">
+                <iframe
+                    src="https://docs.google.com/forms/d/e/1FAIpQLScOjM07j-HK4YLfpkj2sYEdeNQx9XpBfG0VOw1vGmGwZjc0KA/viewform?embedded=true"
+                    width="100%"
+                    height="920"
+                    frameborder="0"
+                    marginheight="0"
+                    marginwidth="0"
+                    style="display:block;"
+                >読み込んでいます…</iframe>
             </div>
-            <?php endif; ?>
-
-            <?php if (!empty($_GET['error'])): ?>
-            <div class="bg-red-50 border border-red-200 text-red-800 px-8 py-6 rounded-xl mb-10 text-center">
-                <p class="text-lg font-semibold mb-1">送信に失敗しました。</p>
-                <p class="text-sm">お手数ですが、直接メール（info@cbc2001.com）にてご連絡ください。</p>
-            </div>
-            <?php endif; ?>
-
-            <form action="contact.php" method="POST" class="bg-white rounded-2xl shadow-sm border border-gray-100 p-10 md:p-14 space-y-8 max-w-3xl mx-auto">
-
-                <div>
-                    <label for="name" class="block text-sm font-semibold text-gray-700 mb-2">お名前 <span class="text-red-500">*</span></label>
-                    <input
-                        type="text"
-                        id="name"
-                        name="name"
-                        required
-                        placeholder="例：山田 太郎"
-                        class="w-full border border-gray-200 rounded-xl px-5 py-4 text-base focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition placeholder-gray-300"
-                    >
-                </div>
-
-                <div>
-                    <label for="municipality" class="block text-sm font-semibold text-gray-700 mb-2">自治体名・所属組織名 <span class="text-red-500">*</span></label>
-                    <input
-                        type="text"
-                        id="municipality"
-                        name="municipality"
-                        required
-                        placeholder="例：〇〇県△△市、または企業名・団体名"
-                        class="w-full border border-gray-200 rounded-xl px-5 py-4 text-base focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition placeholder-gray-300"
-                    >
-                </div>
-
-                <div>
-                    <label for="email" class="block text-sm font-semibold text-gray-700 mb-2">メールアドレス <span class="text-red-500">*</span></label>
-                    <input
-                        type="email"
-                        id="email"
-                        name="email"
-                        required
-                        placeholder="例：example@city.lg.jp"
-                        class="w-full border border-gray-200 rounded-xl px-5 py-4 text-base focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition placeholder-gray-300"
-                    >
-                </div>
-
-                <div>
-                    <label for="message" class="block text-sm font-semibold text-gray-700 mb-2">ご相談内容 <span class="text-red-500">*</span></label>
-                    <textarea
-                        id="message"
-                        name="message"
-                        required
-                        rows="7"
-                        placeholder="ご相談内容を自由にご記載ください。構想段階のご相談でも歓迎です。"
-                        class="w-full border border-gray-200 rounded-xl px-5 py-4 text-base focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition resize-none placeholder-gray-300"
-                    ></textarea>
-                </div>
-
-                <p class="text-xs text-gray-400 leading-relaxed">
-                    ご入力いただいた個人情報は、お問い合わせへの回答および弊社サービスのご案内にのみ使用し、第三者への提供は行いません。
-                </p>
-
-                <div class="text-center pt-2">
-                    <button
-                        type="submit"
-                        class="bg-blue-700 text-white px-14 py-4 rounded-full text-base font-semibold hover:bg-blue-800 active:scale-95 transition-all duration-200 shadow-md hover:shadow-lg"
-                    >
-                        送信する
-                    </button>
-                </div>
-            </form>
         </section>
 
     </main>
@@ -247,10 +178,8 @@
     </footer>
 
     <script>
-        // スクロール追従ナビゲーション
         const nav = document.getElementById('sticky-nav');
         const hero = document.getElementById('hero');
-
         const observer = new IntersectionObserver(
             ([entry]) => {
                 if (!entry.isIntersecting) {
@@ -261,7 +190,6 @@
             },
             { threshold: 0.1 }
         );
-
         observer.observe(hero);
     </script>
 
