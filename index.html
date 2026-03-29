@@ -10,10 +10,6 @@
             background: url('2026_CBC_HP/cbc_background.jpeg') center/cover no-repeat;
         }
         #sticky-nav {
-            transform: translateY(-100%);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-        #sticky-nav.visible {
             transform: translateY(0);
         }
         html {
@@ -44,9 +40,6 @@
 
     <header id="hero" class="hero-bg text-white py-12 px-6 text-center shadow-lg">
         <div class="max-w-4xl mx-auto">
-            <div class="flex items-center justify-center gap-4 mb-8">
-                <img src="2026_CBC_HP/cbc_logo.jpeg" alt="CBC ロゴ" class="h-12 w-auto">
-            </div>
             <div class="bg-blue-900/80 px-10 py-8 rounded-xl inline-block w-full max-w-2xl">
                 <h1 class="text-4xl md:text-5xl font-bold mb-6 tracking-tight leading-[1.8]">
                     次への一歩を踏み出す<br>アイディアと推進力を
@@ -183,21 +176,6 @@
         <p class="text-xs">&copy; 2026 CBC Co., Ltd. All Rights Reserved.</p>
     </footer>
 
-    <script>
-        const nav = document.getElementById('sticky-nav');
-        const hero = document.getElementById('hero');
-        const observer = new IntersectionObserver(
-            ([entry]) => {
-                if (!entry.isIntersecting) {
-                    nav.classList.add('visible');
-                } else {
-                    nav.classList.remove('visible');
-                }
-            },
-            { threshold: 0.1 }
-        );
-        observer.observe(hero);
-    </script>
 
 </body>
 </html>
