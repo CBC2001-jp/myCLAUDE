@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>有限会社シービーシー (CBC) | 地域創生・組織開発の実践型パートナー</title>
+    <meta name="description" content="有限会社シービーシー（CBC）は、30年以上のグローバルマネジメント経験を活かし、地域の潜在価値を掘り起こす実践型パートナーです。HACCP認証、NFT活用、組織開発など多角的に地域創生を支援します。">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ───── Navigation ───── -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="#" class="nav-logo">CBC<span>.</span></a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#mission">理念</a></li>
+                <li><a href="#about">代表紹介</a></li>
+                <li><a href="#services">事業内容</a></li>
+                <li><a href="#projects">実績</a></li>
+                <li><a href="#testimonials">関係者の声</a></li>
+                <li><a href="#contact">お問い合わせ</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger" aria-label="メニューを開く">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ───── Hero ───── -->
+    <section class="hero" id="hero">
+        <div class="hero-bg">
+            <img src="hero_regional.png" alt="日本の地方沿岸の美しい風景">
+        </div>
+        <div class="container">
+            <div class="hero-content fade-in">
+                <div class="hero-tag">
+                    <span class="dot"></span>
+                    地域創生 × グローバル知見
+                </div>
+                <h1>地域の未来を、<br>共に描き、共に動く。</h1>
+                <p class="hero-subtitle">有限会社シービーシー — 実践型パートナー</p>
+                <p class="hero-description">
+                    食の現場から経営戦略まで。30年以上のグローバルマネジメント経験を活かし、<br>
+                    地域の「潜在価値」を掘り起こし、「自走する地域ビジネス」へと導きます。
+                </p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">実績を見る →</a>
+                    <a href="#contact" class="btn btn-outline">お問い合わせ</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ───── Stats Bar ───── -->
+    <section class="stats-bar" id="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item fade-in" data-delay="0">
+                    <div class="stat-number" data-count="30" data-suffix="+">0</div>
+                    <div class="stat-label">年のマネジメント経験</div>
+                </div>
+                <div class="stat-item fade-in" data-delay="100">
+                    <div class="stat-number" data-count="10" data-suffix="+">0</div>
+                    <div class="stat-label">プロジェクト実績</div>
+                </div>
+                <div class="stat-item fade-in" data-delay="200">
+                    <div class="stat-number" data-count="5" data-suffix="">0</div>
+                    <div class="stat-label">地域での展開</div>
+                </div>
+                <div class="stat-item fade-in" data-delay="300">
+                    <div class="stat-number" data-count="100" data-suffix="%">0</div>
+                    <div class="stat-label">伴走完遂率</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ───── Mission ───── -->
+    <section class="mission" id="mission">
+        <div class="container">
+            <div class="fade-in">
+                <span class="section-label">Our Philosophy</span>
+                <h2 class="section-title">代表メッセージ</h2>
+            </div>
+
+            <blockquote class="mission-quote fade-in">
+                一過性のイベントで終わらせず、<br>
+                最終的に地元が<strong>自走できるサポート</strong>まで伴走し抜く。<br>
+                そうすることで、日本各地の持続可能な発展に貢献したい。
+            </blockquote>
+
+            <div class="mission-cards">
+                <div class="mission-card fade-in" data-delay="0">
+                    <div class="icon">🔍</div>
+                    <h3>潜在価値の発掘</h3>
+                    <p>これまでに出会った全国各地の事例は、地域の可能性を考える上で「広い視点」を与えてくれました。ひとつの成功事例で終わらせず、仕組みとして全国へ広げていきます。</p>
+                </div>
+                <div class="mission-card fade-in" data-delay="150">
+                    <div class="icon">🌱</div>
+                    <h3>地元に根付く支援</h3>
+                    <p>仕組みを当てはめるだけでなく、地元に最適な形で根付かせていくプロセスと、事業の継続性を重視しています。</p>
+                </div>
+                <div class="mission-card fade-in" data-delay="300">
+                    <div class="icon">🤝</div>
+                    <h3>自走への伴走</h3>
+                    <p>一過性のイベントで終わらせず、最終的に地元が自走できるサポートまで伴走し抜く。それがCBCの約束です。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ───── About ───── -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="fade-in">
+                <span class="section-label">Representative</span>
+                <h2 class="section-title">代表プロフィール</h2>
+                <p class="section-subtitle">30年以上のグローバル経験と、現場主義を掛け合わせた実践型リーダー。</p>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-text fade-in-left">
+                    <h3 style="font-family: var(--font-heading); font-size: 1.6rem; margin-bottom: 8px;">米永 憲司</h3>
+                    <p style="color: var(--color-accent); font-size: 0.9rem; margin-bottom: 24px;">代表取締役 ／ Kenji Yonenaga</p>
+
+                    <p>1963年大阪生まれ。国内大手食品メーカー、欧州系外資食品企業、北米拠点の食品商社などで、<strong>R&Dからサプライチェーンマネジメント、企業経営まで</strong>幅広く歴任。</p>
+                    <p>30年以上のグローバルかつ実務的なマネジメント経験を持ち、現在は兵庫県宝塚市を拠点に、<strong>全国各地で地域創生プロジェクト</strong>を推進中。</p>
+                    <p>「地域にはまだまだ隠れた価値がある」という信念のもと、現場に深く入り込み、データと対話で地域の未来を共に描いています。</p>
+
+                    <div class="strengths">
+                        <span class="strength-tag">地域再生マネージャー</span>
+                        <span class="strength-tag">グローバル認定ストレングスコーチ</span>
+                        <span class="strength-tag">HACCP導入支援</span>
+                        <span class="strength-tag">NFT × 地域活性化</span>
+                        <span class="strength-tag">動画プロモーション</span>
+                    </div>
+                </div>
+
+                <div class="profile-card fade-in-right">
+                    <h4 style="font-family: var(--font-heading); font-size: 1.1rem; margin-bottom: 20px; color: var(--color-accent);">経歴ハイライト</h4>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <span class="year">1986 – 2000s</span>
+                            <h4>国内大手食品メーカー</h4>
+                            <p>R&D・品質管理からキャリアをスタート</p>
+                        </div>
+                        <div class="timeline-item">
+                            <span class="year">2000s – 2010s</span>
+                            <h4>欧州系外資食品企業</h4>
+                            <p>グローバル基準のサプライチェーン管理を経験</p>
+                        </div>
+                        <div class="timeline-item">
+                            <span class="year">2010s</span>
+                            <h4>北米拠点 食品商社</h4>
+                            <p>海外ビジネス・企業経営を歴任</p>
+                        </div>
+                        <div class="timeline-item">
+                            <span class="year">2020 –</span>
+                            <h4>有限会社CBC 代表取締役</h4>
+                            <p>全国各地で地域創生プロジェクトを推進</p>
+                        </div>
+                    </div>
+
+                    <dl class="profile-info" style="margin-top: 24px;">
+                        <dt>所在地</dt>
+                        <dd>〒665-0803 兵庫県宝塚市花屋敷つつじガ丘1番20号</dd>
+                        <dt>事業内容</dt>
+                        <dd>経営コンサルタント業務 ／ 人材育成コンサルティング ／ Web・動画コンテンツ企画制作</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ───── Services (3つの強み) ───── -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="fade-in">
+                <span class="section-label">Our Strengths</span>
+                <h2 class="section-title">CBCの3つの強み</h2>
+                <p class="section-subtitle">グローバル経験 × 現場実践 × テクノロジーの融合で、地域の可能性を最大化します。</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card fade-in" data-delay="0">
+                    <div class="icon">📊</div>
+                    <h3>品質管理と財務マネジメント</h3>
+                    <p>海外ビジネスや外資系企業での経営実績を活かし、世界基準の衛生管理（HACCP等）導入や、データに基づく緻密な事業計画の立案をサポートします。</p>
+                    <div class="service-tags">
+                        <span class="service-tag">HACCP認証</span>
+                        <span class="service-tag">事業計画立案</span>
+                        <span class="service-tag">対米輸出支援</span>
+                    </div>
+                </div>
+                <div class="service-card fade-in" data-delay="150">
+                    <div class="icon">💡</div>
+                    <h3>伝統と最新技術の融合</h3>
+                    <p>地域の伝統産業にNFTやアプリなどのテクノロジーを掛け合わせ、新たな関係人口の創出と持続可能なコミュニティ形成を実現します。</p>
+                    <div class="service-tags">
+                        <span class="service-tag">NFT活用</span>
+                        <span class="service-tag">観光アプリ</span>
+                        <span class="service-tag">関係人口創出</span>
+                    </div>
+                </div>
+                <div class="service-card fade-in" data-delay="0">
+                    <div class="icon">🏆</div>
+                    <h3>強みを最大化する組織開発</h3>
+                    <p>グローバル認定コーチとして、人材の「才能」を科学的に分析。自発的で突破力のあるチームビルディングを行い、組織の底上げを図ります。</p>
+                    <div class="service-tags">
+                        <span class="service-tag">ストレングスコーチング</span>
+                        <span class="service-tag">チームビルディング</span>
+                        <span class="service-tag">研修</span>
+                    </div>
+                </div>
+                <div class="service-card fade-in" data-delay="150">
+                    <div class="icon">🎬</div>
+                    <h3>動画・プロモーション制作</h3>
+                    <p>地域の魅力を映像で発信。撮影から編集、SNS展開まで一貫してプロモーション戦略をサポートし、地域のブランド価値を高めます。</p>
+                    <div class="service-tags">
+                        <span class="service-tag">動画撮影・編集</span>
+                        <span class="service-tag">SNS戦略</span>
+                        <span class="service-tag">ブランディング</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ───── Projects (実績) ───── -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="fade-in">
+                <span class="section-label">Track Record</span>
+                <h2 class="section-title">取り組み・実績</h2>
+                <p class="section-subtitle">全国各地の地域と共に歩んだプロジェクトの一部をご紹介します。</p>
+            </div>
+
+            <div class="project-card fade-in">
+                <div class="project-number">01</div>
+                <div>
+                    <div class="location">📍 福井県高浜町</div>
+                    <h3>水産加工場のHACCP認証・事業計画立案</h3>
+                    <p>地域再生マネージャーとして、対米輸出に向けたHACCP（米国基準）認証の体制構築を主導。現場の教育プログラム策定から、国の関連機関へ向けた投資対効果などの事業計画立案まで一気通貫で伴走しています。</p>
+                    <div class="project-highlights">
+                        <span class="project-highlight">✓ 米国基準HACCP導入</span>
+                        <span class="project-highlight">✓ 現場教育プログラム策定</span>
+                        <span class="project-highlight">✓ 事業計画立案</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card fade-in">
+                <div class="project-number">02</div>
+                <div>
+                    <div class="location">📍 全国展開</div>
+                    <h3>NFTを活用した特産品の販売・コミュニティ形成</h3>
+                    <p>地元農家と協働し「農産物の年間オーナー制度（NFT）」を展開。デジタル技術と現地でのリアルな農業体験を掛け合わせ、動画配信等も活用しながら県外からの継続的な関係人口を創出しています。</p>
+                    <div class="project-highlights">
+                        <span class="project-highlight">✓ NFTオーナー制度設計</span>
+                        <span class="project-highlight">✓ 関係人口の創出</span>
+                        <span class="project-highlight">✓ 動画配信連携</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card fade-in">
+                <div class="project-number">03</div>
+                <div>
+                    <div class="location">📍 インバウンド向け</div>
+                    <h3>海外アプリメーカーとの観光アプリ開発提案</h3>
+                    <p>グローバルな知見を活かし、海外メーカーと連携したインバウンド・国内観光向けアプリを提案。地域の観光資源をデジタル上で可視化し、新たな体験価値を生み出します。</p>
+                    <div class="project-highlights">
+                        <span class="project-highlight">✓ 海外企業との連携</span>
+                        <span class="project-highlight">✓ 観光資源のデジタル化</span>
+                        <span class="project-highlight">✓ インバウンド誘客</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card fade-in">
+                <div class="project-number">04</div>
+                <div>
+                    <div class="location">📍 国内大手企業</div>
+                    <h3>企業向けマネジメント研修（強み開発・組織開発）</h3>
+                    <p>国内大手メーカーのマネジメント層に対し、個人の「資質」を言語化し活用するワークショップを主催。適材適所の人員配置やチーム力向上を支援しており、地域の事業体や行政組織にも応用可能です。</p>
+                    <div class="project-highlights">
+                        <span class="project-highlight">✓ ストレングス分析</span>
+                        <span class="project-highlight">✓ チーム力向上</span>
+                        <span class="project-highlight">✓ 行政組織にも応用</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ───── Testimonials ───── -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="testimonial-header fade-in">
+                <span class="section-label">Voices</span>
+                <h2 class="section-title">関係者の声</h2>
+                <div class="satisfaction-score">
+                    <span class="number" data-count="98" data-suffix="%">0</span>
+                    <span class="unit">満足度</span>
+                </div>
+                <div class="stars">★★★★★</div>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card fade-in" data-delay="0">
+                    <div class="quote-icon">"</div>
+                    <p>外部のコンサルタントというより、一緒に悩んで一緒に走ってくれる方。現場の温度感を理解した上で、グローバルな視点から的確な提案をしていただきました。</p>
+                    <div class="author">— 自治体 産業振興課 担当者</div>
+                </div>
+                <div class="testimonial-card fade-in" data-delay="150">
+                    <div class="quote-icon">"</div>
+                    <p>HACCPの導入は不安だらけでしたが、一つひとつ現場で丁寧に説明してくれたので、従業員全員が納得して取り組めています。数字に基づく事業計画も非常に説得力がありました。</p>
+                    <div class="author">— 水産加工業者 代表</div>
+                </div>
+                <div class="testimonial-card fade-in" data-delay="300">
+                    <div class="quote-icon">"</div>
+                    <p>NFTを使った農産物オーナー制度は最初半信半疑でしたが、都市部からの関心が想像以上に集まり驚きました。デジタルとリアルの橋渡しが見事でした。</p>
+                    <div class="author">— 地元農家 組合長</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ───── Contact ───── -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info fade-in-left">
+                    <span class="section-label">Contact</span>
+                    <h2 class="section-title" style="font-size: 1.8rem;">まずは、お気軽な<br>「対話」から始めませんか。</h2>
+                    <p>地域の可能性を形にするためには、現場の「リアルな声」をお聞きすることが出発点です。「何から手をつければいいか分からない」「まだ構想段階だ」といったご相談でも大歓迎です。</p>
+                    <p>オンラインでのご相談や現地へのご訪問など柔軟に対応いたします。</p>
+
+                    <ul class="contact-details">
+                        <li>
+                            <span class="icon">📧</span>
+                            <a href="mailto:info@cbc2001.com">info@cbc2001.com</a>
+                        </li>
+                        <li>
+                            <span class="icon">📞</span>
+                            <span>080-3739-1963</span>
+                        </li>
+                        <li>
+                            <span class="icon">📍</span>
+                            <span>兵庫県宝塚市花屋敷つつじガ丘1番20号</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="contact-form-wrapper fade-in-right">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="contactName">お名前</label>
+                            <input type="text" id="contactName" name="name" placeholder="山田 太郎" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactOrg">ご所属</label>
+                            <input type="text" id="contactOrg" name="organization" placeholder="◯◯市役所 地域振興課">
+                        </div>
+                        <div class="form-group">
+                            <label for="contactEmail">メールアドレス</label>
+                            <input type="email" id="contactEmail" name="email" placeholder="example@city.lg.jp" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactType">ご相談内容</label>
+                            <select id="contactType" name="type">
+                                <option value="">選択してください</option>
+                                <option value="regional">地域創生に関するご相談</option>
+                                <option value="haccp">HACCP・品質管理について</option>
+                                <option value="nft">NFT・デジタル活用について</option>
+                                <option value="coaching">組織開発・コーチングについて</option>
+                                <option value="other">その他</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactMessage">メッセージ</label>
+                            <textarea id="contactMessage" name="message" rows="5" placeholder="ご相談内容をお気軽にご記入ください"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">送信する →</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ───── Footer ───── -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="name">CBC<span>.</span></div>
+                    <div class="company">有限会社シービーシー</div>
+                </div>
+                <div class="footer-links">
+                    <a href="#mission">理念</a>
+                    <a href="#about">代表紹介</a>
+                    <a href="#services">事業内容</a>
+                    <a href="#projects">実績</a>
+                    <a href="#contact">お問い合わせ</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2026 有限会社シービーシー (CBC Co., Ltd.) All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- ───── Feedback Button & Modal ───── -->
+    <button class="feedback-btn" id="feedbackBtn" aria-label="フィードバックを送る">
+        💬 <span>フィードバック</span>
+    </button>
+
+    <div class="feedback-modal" id="feedbackModal">
+        <div class="feedback-modal-content">
+            <button class="feedback-modal-close" id="feedbackClose" aria-label="閉じる">&times;</button>
+            <form id="feedbackForm">
+                <h3>サイトの印象は？</h3>
+                <p class="feedback-desc">このページのデザインについてご意見をお聞かせください。</p>
+                <div class="feedback-rating">
+                    <button type="button" class="rating-btn" data-value="1">😕</button>
+                    <button type="button" class="rating-btn" data-value="2">🙂</button>
+                    <button type="button" class="rating-btn" data-value="3">😊</button>
+                    <button type="button" class="rating-btn" data-value="4">🤩</button>
+                </div>
+                <textarea id="feedbackComment" rows="3" placeholder="改善点やご意見があればお聞かせください（任意）"></textarea>
+                <button type="submit" class="btn btn-primary feedback-submit">送信する</button>
+            </form>
+            <div class="feedback-thanks" hidden id="feedbackThanks">
+                <div class="feedback-thanks-icon">✓</div>
+                <h3>ありがとうございます！</h3>
+                <p class="feedback-desc">フィードバックを受け付けました。</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="feedback.js"></script>
+    <script>
+        // Initialize Feedback
+        document.addEventListener('DOMContentLoaded', () => {
+            if (typeof initFeedback === 'function') {
+                initFeedback({
+                    feedbackBtn: document.getElementById('feedbackBtn'),
+                    feedbackModal: document.getElementById('feedbackModal'),
+                    feedbackClose: document.getElementById('feedbackClose'),
+                    feedbackForm: document.getElementById('feedbackForm'),
+                    feedbackThanks: document.getElementById('feedbackThanks'),
+                });
+            }
+        });
+    </script>
+
+</body>
+</html>
