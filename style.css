@@ -770,6 +770,26 @@ h1, h2, h3, h4 {
   line-height: 1;
 }
 
+.project-body {
+  display: flex;
+  gap: 28px;
+  align-items: flex-start;
+}
+
+.project-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.project-img {
+  width: 260px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  flex-shrink: 0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.10);
+}
+
 .project-card .location {
   font-size: 0.75rem;
   color: var(--color-primary);
@@ -1160,6 +1180,15 @@ h1, h2, h3, h4 {
   .project-card {
     grid-template-columns: 1fr;
     gap: 16px;
+  }
+
+  .project-body {
+    flex-direction: column;
+  }
+
+  .project-img {
+    width: 100%;
+    height: 200px;
   }
 
   .project-number {
