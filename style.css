@@ -474,10 +474,20 @@ h1, h2, h3, h4 {
   gap: 24px;
 }
 
+.mission-card-img {
+  width: calc(100% + 48px);
+  height: 180px;
+  object-fit: cover;
+  border-radius: calc(var(--radius) - 2px) calc(var(--radius) - 2px) 0 0;
+  margin: -24px -24px 20px -24px;
+  display: block;
+}
+
 .mission-card {
   background: var(--color-bg-card);
   border: 1px solid var(--color-border-light);
   border-radius: var(--radius);
+  overflow: hidden;
   padding: 36px 28px;
   transition: var(--transition);
   box-shadow: var(--shadow-sm);
