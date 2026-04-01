@@ -208,7 +208,7 @@ h1, h2, h3, h4 {
 }
 
 .nav-links a {
-  color: var(--color-text-muted);
+  color: rgba(255, 255, 255, 0.9);
   font-size: 0.85rem;
   font-weight: 400;
   letter-spacing: 0.05em;
