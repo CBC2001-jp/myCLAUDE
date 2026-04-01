@@ -186,19 +186,18 @@ h1, h2, h3, h4 {
 }
 
 .nav-logo {
-  font-family: var(--font-heading);
-  font-size: 1.2rem;
-  color: #fff;
-  font-weight: 700;
-  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-radius: 8px;
+  padding: 4px 8px;
 }
 
-.navbar.scrolled .nav-logo {
-  color: var(--color-text);
-}
-
-.nav-logo span {
-  color: var(--color-accent-warm);
+.nav-logo-img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  display: block;
 }
 
 .nav-links {
