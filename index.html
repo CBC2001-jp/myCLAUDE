@@ -361,50 +361,7 @@
         </div>
     </footer>
 
-    <!-- ───── Feedback Button & Modal ───── -->
-    <button class="feedback-btn" id="feedbackBtn" aria-label="フィードバックを送る">
-        💬 <span>フィードバック</span>
-    </button>
-
-    <div class="feedback-modal" id="feedbackModal">
-        <div class="feedback-modal-content">
-            <button class="feedback-modal-close" id="feedbackClose" aria-label="閉じる">&times;</button>
-            <form id="feedbackForm">
-                <h3>サイトの印象は？</h3>
-                <p class="feedback-desc">このページのデザインについてご意見をお聞かせください。</p>
-                <div class="feedback-rating">
-                    <button type="button" class="rating-btn" data-value="1">😕</button>
-                    <button type="button" class="rating-btn" data-value="2">🙂</button>
-                    <button type="button" class="rating-btn" data-value="3">😊</button>
-                    <button type="button" class="rating-btn" data-value="4">🤩</button>
-                </div>
-                <textarea id="feedbackComment" rows="3" placeholder="改善点やご意見があればお聞かせください（任意）"></textarea>
-                <button type="submit" class="btn btn-primary feedback-submit">送信する</button>
-            </form>
-            <div class="feedback-thanks" hidden id="feedbackThanks">
-                <div class="feedback-thanks-icon">✓</div>
-                <h3>ありがとうございます！</h3>
-                <p class="feedback-desc">フィードバックを受け付けました。</p>
-            </div>
-        </div>
-    </div>
-
     <script src="script.js"></script>
-    <script src="feedback.js"></script>
-    <script>
-        // Initialize Feedback
-        document.addEventListener('DOMContentLoaded', () => {
-            if (typeof initFeedback === 'function') {
-                initFeedback({
-                    feedbackBtn: document.getElementById('feedbackBtn'),
-                    feedbackModal: document.getElementById('feedbackModal'),
-                    feedbackClose: document.getElementById('feedbackClose'),
-                    feedbackForm: document.getElementById('feedbackForm'),
-                    feedbackThanks: document.getElementById('feedbackThanks'),
-                });
-            }
-        });
-    </script>
 
 </body>
 </html>
