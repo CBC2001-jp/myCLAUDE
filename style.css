@@ -451,18 +451,6 @@ h1, h2, h3, h4 {
   line-height: 1.8;
 }
 
-.mission-quote::before {
-  content: '"';
-  position: absolute;
-  top: -20px;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 6rem;
-  color: var(--color-primary);
-  opacity: 0.1;
-  font-family: var(--font-heading);
-  line-height: 1;
-}
 
 .mission-cards {
   display: grid;
