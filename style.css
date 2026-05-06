@@ -1379,3 +1379,130 @@ h1, h2, h3, h4 {
   .feedback-btn { padding: 14px; border-radius: 50%; }
   .feedback-modal-content { padding: 28px 20px; }
 }
+
+/* ========================================
+   Hero Adoption Badges (令和7年度・観光庁採択)
+   ======================================== */
+.hero-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 14px 0 20px;
+}
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 14px;
+  background: rgba(255, 255, 255, 0.95);
+  color: var(--color-accent, #0a4f8a);
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+/* ========================================
+   News Pickup (実績セクション冒頭のハイライト)
+   ======================================== */
+.news-pickup {
+  background: linear-gradient(135deg, #fef9e7 0%, #fff7d6 100%);
+  border-left: 4px solid #f5b400;
+  border-radius: 12px;
+  padding: 22px 28px;
+  margin: 32px 0 48px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+}
+.news-pickup-label {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 0.95rem;
+  margin-bottom: 12px;
+  color: #8a6d00;
+  letter-spacing: 0.02em;
+}
+.news-pickup-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.news-pickup-list li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 0;
+  flex-wrap: wrap;
+  border-top: 1px solid rgba(245, 180, 0, 0.18);
+}
+.news-pickup-list li:first-child { border-top: none; }
+.news-pickup-list .news-date {
+  font-weight: 700;
+  color: var(--color-accent, #0a4f8a);
+  min-width: 60px;
+  font-size: 0.88rem;
+}
+.news-pickup-list a {
+  color: #1a1a1a;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  font-weight: 500;
+  flex: 1;
+  min-width: 200px;
+}
+.news-pickup-list a:hover { color: var(--color-accent, #0a4f8a); }
+.news-tag {
+  background: #fff;
+  padding: 2px 10px;
+  border-radius: 4px;
+  font-size: 0.72rem;
+  color: #6b5d00;
+  font-weight: 600;
+  border: 1px solid #e0d49a;
+  white-space: nowrap;
+}
+
+/* ========================================
+   Location Badge (実績カード内の年度バッジ)
+   ======================================== */
+.location-badge {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 3px 10px;
+  background: var(--color-accent, #0a4f8a);
+  color: #fff;
+  border-radius: 4px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  vertical-align: middle;
+  letter-spacing: 0.02em;
+}
+
+/* ========================================
+   Project External Links (公的資料リンク)
+   ======================================== */
+.project-links {
+  margin-top: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 16px;
+}
+.project-link {
+  display: inline-flex;
+  align-items: center;
+  color: var(--color-accent, #0a4f8a);
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: opacity 0.2s ease;
+}
+.project-link:hover {
+  text-decoration: underline;
+  opacity: 0.85;
+}
+
+@media (max-width: 640px) {
+  .news-pickup { padding: 18px 18px; }
+  .news-pickup-list li { padding: 8px 0; }
+  .news-pickup-list a { min-width: 100%; }
+  .hero-badge { font-size: 0.72rem; padding: 5px 12px; }
+}
