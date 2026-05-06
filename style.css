@@ -258,6 +258,10 @@ h1, h2, h3, h4 {
   background: var(--color-text);
 }
 
+.navbar.scrolled .nav-links a {
+  color: var(--color-text);
+}
+
 /* ---------- Hero ---------- */
 .hero {
   position: relative;
