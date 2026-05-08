@@ -1513,10 +1513,10 @@ h1, h2, h3, h4 {
   display: inline-block;
   margin: 8px 0 20px;
   padding: 6px 14px;
-  background: #1a3a6b;
+  background: var(--color-accent, #0a4f8a);
   color: #ffffff !important;
-  font-size: 0.85rem;
-  font-weight: 700;
+  font-size: 0.72rem;
+  font-weight: 600;
   letter-spacing: 0.02em;
   border-radius: 4px;
 }
