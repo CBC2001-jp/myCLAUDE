@@ -1054,6 +1054,7 @@ h1, h2, h3, h4 {
   background: #1E293B;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   padding: 48px 0 32px;
+  font-family: var(--font-body);
 }
 
 .footer-content {
@@ -1064,7 +1065,7 @@ h1, h2, h3, h4 {
 }
 
 .footer-brand .name {
-  font-family: var(--font-heading);
+  font-family: var(--font-body);
   font-size: 1.1rem;
   margin-bottom: 8px;
   color: #fff;
