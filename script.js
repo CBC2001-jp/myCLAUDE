@@ -109,20 +109,45 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // ── Contact form UX (prevent default, show feedback) ──
+  // ── Contact form (Web3Forms AJAX submit) ──
   const form = document.querySelector('#contactForm');
+  const formResult = document.querySelector('#formResult');
   if (form) {
-    form.addEventListener('submit', (e) => {
+    form.addEventListener('submit', async (e) => {
       e.preventDefault();
-      const btn = form.querySelector('.btn-primary');
+      const btn = form.querySelector('button[type="submit"]');
       const originalText = btn.textContent;
-      btn.textContent = '送信しました ✓';
-      btn.style.background = 'linear-gradient(135deg, #2ecc71, #27ae60)';
-      setTimeout(() => {
-        btn.textContent = originalText;
-        btn.style.background = '';
-        form.reset();
-      }, 3000);
+      btn.textContent = '送信中...';
+      btn.disabled = true;
+
+      try {
+        const response = await fetch('https://api.web3forms.com/submit', {
+          method: 'POST',
+          body: new FormData(form)
+        });
+        const data = await response.json();
+
+        if (data.success) {
+          formResult.style.display = 'block';
+          formResult.style.background = '#f0fdf4';
+          formResult.style.color = '#166534';
+          formResult.innerHTML = '<strong>送信が完了しました。</strong><br>お問い合わせありがとうございます。折り返しご連絡いたします。';
+          form.reset();
+        } else {
+          formResult.style.display = 'block';
+          formResult.style.background = '#fef2f2';
+          formResult.style.color = '#991b1b';
+          formResult.innerHTML = '<strong>送信に失敗しました。</strong><br>お手数ですが、時間をおいて再度お試しください。';
+        }
+      } catch (error) {
+        formResult.style.display = 'block';
+        formResult.style.background = '#fef2f2';
+        formResult.style.color = '#991b1b';
+        formResult.innerHTML = '<strong>送信に失敗しました。</strong><br>通信エラーが発生しました。';
+      }
+
+      btn.textContent = originalText;
+      btn.disabled = false;
     });
   }
 

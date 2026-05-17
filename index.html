@@ -308,7 +308,31 @@
                             <h3 class="form-card-title">お問い合わせ・ご相談</h3>
                             <p class="form-card-desc">下記フォームに必要事項をご記入のうえ、送信してください。</p>
                         </div>
-                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScOjM07j-HK4YLfpkj2sYEdeNQx9XpBfG0VOw1vGmGwZjc0KA/viewform?embedded=true" width="100%" height="900" frameborder="0" marginheight="0" marginwidth="0" style="border: none;">読み込んでいます…</iframe>
+                        <form action="https://api.web3forms.com/submit" method="POST" id="contactForm">
+                            <input type="hidden" name="access_key" value="012386c1-5c09-40fe-ae49-ddee5203386e">
+                            <input type="hidden" name="subject" value="CBC ウェブサイトからのお問い合わせ">
+                            <input type="hidden" name="from_name" value="CBC お問い合わせフォーム">
+                            <input type="checkbox" name="botcheck" style="display: none;">
+
+                            <div class="form-group">
+                                <label for="name">お名前 <span style="color: #e74c3c;">*</span></label>
+                                <input type="text" id="name" name="name" placeholder="例：山田 太郎" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">メールアドレス <span style="color: #e74c3c;">*</span></label>
+                                <input type="email" id="email" name="email" placeholder="例：info@example.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="organization">ご所属（任意）</label>
+                                <input type="text" id="organization" name="organization" placeholder="例：○○町役場 企画課">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">お問い合わせ内容 <span style="color: #e74c3c;">*</span></label>
+                                <textarea id="message" name="message" rows="6" placeholder="ご相談内容をお書きください" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary" style="width: 100%; padding: 14px; font-size: 1rem;">送信する</button>
+                        </form>
+                        <div id="formResult" style="display:none; margin-top: 20px; padding: 16px; border-radius: 8px; text-align: center;"></div>
                     </div>
                 </div>
             </div>
