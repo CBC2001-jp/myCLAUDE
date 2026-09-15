@@ -17,6 +17,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 | `style.css` | スタイル全体 |
 | `script.js` | ナビ・ハンバーガー・フェードイン等の挙動 |
 | `CNAME` | 独自ドメイン設定。**変更・削除禁止** |
+| `.nojekyll` | Pages の Jekyll 処理を無効化（2026-09-15 にビルド失敗の対処で追加）。**削除禁止** |
 | `lp_draft_202607.md` | 2026年7月改訂時の文面ドラフト（文言の原本） |
 | `index_backup.html` / `cbc2001.txt` | 旧版バックアップ。本番には使われない |
 | `contact.php` / `feedback.js` | 現在 `index.html` から参照されていない残骸 |
