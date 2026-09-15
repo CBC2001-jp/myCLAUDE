@@ -128,3 +128,19 @@ CBC supports regional revitalization in Japan by connecting local food, tourism,
 Current projects: U.S. HACCP certification for seafood processors in Takahama, Fukui (Regional Revitalization Manager Program); multilingual interpretation of cultural heritage in Noto, Ishikawa (Japan Tourism Agency program); and a digital ownership program connecting urban supporters with ume plum farmers in Minabe, Wakayama.
 
 Contact: info@cbc2001.com
+
+---
+
+## 2026-09-15 「デジタル」表現の全面見直し（反映済み）
+
+| 箇所 | 旧 | 新 |
+|---|---|---|
+| meta description | 食・観光・デジタルをつなぎ | 「食」を起点に観光と関係人口をつなぎ |
+| ヒーロー説明文 | 食を起点に観光・デジタルをつなぎ、地域に根づく仕組みをつくります。 | 「食」を起点に、訪れる人と関わり続ける人を増やし、地域に根づく仕組みをつくります。 |
+| 取り組み03 本文 | 梅の木のデジタルオーナー制度 | 梅の木の「梅主（ばいぬし）オーナー制度」 |
+| 取り組み03 結び | 基盤にはKDDIのデジタル証明技術（αU Market）を活用。…新しいデジタルのアイデア | オーナー証明にはKDDIの αU Market を活用していますが、…新しい仕組みのアイデア |
+| 取り組み03 実績 | デジタルオーナー制度の設計・実施 | 梅の木のオーナー制度の設計・実施 |
+| 代表タグ | デジタル × 地域活性化 | 関係人口 × 地域活性化 |
+| 会社概要 協働体制 | KDDI・αU Market（デジタルオーナー制度） | KDDI・αU Market（梅の木のオーナー制度） |
+
+英語サマリー（digital engagement / digital ownership program）は据え置き。
