@@ -34,7 +34,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 1. **同期**: `git checkout main && git pull --ff-only origin main`
 2. **編集**: `index.html` / `style.css` / `script.js` を直接編集。文言変更は `lp_draft_202607.md` も同期させる
-3. **プレビュー**: `preview_start` の `cbc-lp`（`.claude/launch.json`、http://localhost:8787）でブラウザ確認。スマホ幅（375px）も確認
+3. **プレビュー**: `preview_start` の `cbc-lp`（http://localhost:8787）でブラウザ確認。スマホ幅（375px）も確認。設定は Claude Desktop のセッション起点ディレクトリ `~/Documents/Claude/.claude/launch.json`（`--directory myCLAUDE` で配信）と、このリポ直下の `.claude/launch.json`（リポを直接開いた場合用）の2か所にある
 4. **コミット**: 日本語の Conventional Commits 風（例 `feat: 強みカードの画像を差し替え`、`fix: ヒーロー文言を修正`）
 5. **デプロイ**: `scripts/lp-deploy.sh "コミットメッセージ"`（commit → push → ビルド待ち）。ユーザーの方針: **確認を求めずに実行してよい**。push 後に何を公開したかを報告する
 6. **確認**: `scripts/lp-status.sh` で Pages ビルド完了と本番反映（ETag/更新日時）をチェック
