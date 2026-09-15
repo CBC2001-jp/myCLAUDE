@@ -28,7 +28,7 @@
 ## 取り組み・実績
 
 CBCの取り組みの起点は「食」です。
-**世界基準の品質で「食」を世界に届け、「食」を観光の訪れる機会として、「食」を地域とつながり続ける理由に、**
+**世界基準の品質で「食」を世界に届け、「食」を観光で訪れる機会に、「食」を地域とつながり続ける理由に、**
 それぞれの地域で深く実装しています。
 （2026-09-15 改訂。旧: 「食」で世界基準の品質をつくり(高浜)、「観光」で訪れる理由に変え(能登)、「デジタル」で地域とのつながりを続く関係にする(みなべ)。）
 
@@ -51,22 +51,22 @@ CBCの取り組みの起点は「食」です。
 
 ### 02 石川県能登町|観光庁 令和8年度「地域観光資源の多言語解説整備促進事業」
 
-**真脇遺跡・あばれ祭・能登の食を、「訪れる理由」に変える**
+**真脇遺跡・あばれ祭・能登の食を、「訪れる機会」に変える**
 
 縄文の真脇遺跡、あばれ祭、受け継がれる食文化。能登町には、世界に伝わるべき物語があります。
 
 海外の旅行者の目線で、**伝わる解説文**の制作を監修しています。「食と文化を体験する観光」につなぐ——食×観光の接続が、この事業の核心です。
 
 
-✓ 真脇遺跡・あばれ祭・食の復興体験の解説文制作・現地監修
+✓ 真脇遺跡・あばれ祭・食文化体験の解説文制作・監修
 ✓ 海外目線でのコンテンツ再編集
-✓ 地域の手で更新しやすい形での実装
+✓ 食と文化を体験する観光への接続
 
 ### 03 和歌山県みなべ町|「食」を、地域とつながり続ける理由に変える（2026-09-15 改訂）
 
 **梅の木のオーナーになり、実りを待ち、その実を受け取る。「食」を通じて地域との関係の継続を目指します。**
 
-世界農業遺産「みなべ・田辺の梅システム」の地で、地元農家と梅の木の**「梅主（ばいぬし）オーナー制度」**を企画・実施しました。オーナーは木の成長を見守りながら、青梅や梅干しなど梅製品を受け取り、農泊、農作業体験を楽しめます。手元に届く梅、体験が年間を通じて地域と関わり続けるきっかけになります。
+世界農業遺産「みなべ・田辺の梅システム」の地で、地元農家と梅の木の**「梅主（ばいぬし）オーナー制度」**を企画・実施しました。オーナーは木の成長を見守りながら、青梅や梅干しなど梅製品が届き、農泊、農作業体験を楽しめます。その梅と体験が、年間を通じて地域と関わり続けるきっかけになります。
 
 食・一次産業をサポートするKDDIの αU Market を基盤に、新しいアイデアを掛け合わせて地域を盛り上げる。技術は手段、主役は現場の「食」。一次産業の経営を支える関係人口を、地域と一緒に育てています。
 
@@ -90,9 +90,9 @@ CBCの取り組みの起点は「食」です。
 
 タグ:HACCP認定/事業計画立案/対米輸出支援
 
-### 2. 海外市場を、実務で知っている
+### 2. 海外の目線で、地域の魅力を届ける
 
-「海外の目線」で地域の魅力を再発掘し、商品開発・商談、インバウンド向けコンテンツまで、生産から発信まで一体で支援します。
+「海外の目線」で地域の魅力を再発掘し、商品開発・商談からインバウンド向けコンテンツまで、生産から発信を一体で支援します。
 
 タグ:対米・対アジア輸出/多言語コンテンツ監修/インバウンド設計
 
@@ -120,9 +120,9 @@ CBCの取り組みの起点は「食」です。
 
 **CBC Co., Ltd. — Turning local "delicious" into globally competitive products.**
 
-CBC supports regional revitalization in Japan by using local food as the starting point to connect tourism and lasting relationships with the community. Drawing on 30 years in the international food business — including U.S. HACCP compliance, export operations, and market development in North America and Europe — we work on-site with local producers and municipalities.
+CBC supports regional revitalization in Japan by using local food as the starting point to connect tourism and lasting relationships with the community. Drawing on 30 years in the international food business — including U.S. HACCP accreditation, export operations, and market development in North America and Europe — we work on-site with local producers and municipalities.
 
-Current projects: U.S. HACCP certification for seafood processors in Takahama, Fukui (Regional Revitalization Manager Program); multilingual interpretation of cultural heritage in Noto, Ishikawa (Japan Tourism Agency program); and a plum-tree ownership program connecting urban supporters with ume farmers in Minabe, Wakayama.
+Current projects: U.S. HACCP accreditation for seafood processors in Takahama, Fukui (Regional Revitalization Manager Program); multilingual interpretation of cultural heritage in Noto, Ishikawa (Japan Tourism Agency program); and a plum-tree ownership program connecting urban supporters with ume farmers in Minabe, Wakayama.
 
 Contact: info@cbc2001.com
 
@@ -171,3 +171,12 @@ Contact: info@cbc2001.com
 - 強み3: 1段落目を差し替え（Gallup表記なし）
 - 代表プロフィール: 経歴を1文に統合
 - 会社概要: 連携体制の行を削除
+
+## 2026-09-15 第3回レビュー反映
+- 02 実績項目を本文に合わせて更新（復興・地域の手で更新 → 食文化体験・観光への接続）、見出し「訪れる理由」→「訪れる機会」
+- リード文「観光の訪れる機会として」→「観光で訪れる機会に」
+- 代表プロフィールの読点連鎖を整理
+- 03 「受け取る/届く」の重複整理
+- 強み2 「まで」の重複整理、見出し「海外市場を、実務で知っている」→「海外の目線で、地域の魅力を届ける」
+- 01 「認定取得プロジェクト」→「認定プロジェクト」
+- 英語サマリー HACCP compliance / certification → HACCP accreditation
