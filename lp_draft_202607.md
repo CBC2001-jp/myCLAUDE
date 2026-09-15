@@ -128,9 +128,9 @@ CBCがめざすのは、計画書ではなく**動き続ける現場**です。�
 
 **CBC Co., Ltd. — Turning local "delicious" into globally competitive products.**
 
-CBC supports regional revitalization in Japan by connecting local food, tourism, and digital engagement. Drawing on 30 years in the international food business — including U.S. HACCP compliance, export operations, and market development in North America and Europe — we work on-site with local producers and municipalities.
+CBC supports regional revitalization in Japan by using local food as the starting point to connect tourism and lasting relationships with the community. Drawing on 30 years in the international food business — including U.S. HACCP compliance, export operations, and market development in North America and Europe — we work on-site with local producers and municipalities.
 
-Current projects: U.S. HACCP certification for seafood processors in Takahama, Fukui (Regional Revitalization Manager Program); multilingual interpretation of cultural heritage in Noto, Ishikawa (Japan Tourism Agency program); and a digital ownership program connecting urban supporters with ume plum farmers in Minabe, Wakayama.
+Current projects: U.S. HACCP certification for seafood processors in Takahama, Fukui (Regional Revitalization Manager Program); multilingual interpretation of cultural heritage in Noto, Ishikawa (Japan Tourism Agency program); and a plum-tree ownership program connecting urban supporters with ume farmers in Minabe, Wakayama.
 
 Contact: info@cbc2001.com
 
@@ -148,4 +148,4 @@ Contact: info@cbc2001.com
 | 代表タグ | デジタル × 地域活性化 | 関係人口 × 地域活性化 |
 | 会社概要 協働体制 | KDDI・αU Market（デジタルオーナー制度） | KDDI・αU Market（梅の木のオーナー制度） |
 
-英語サマリー（digital engagement / digital ownership program）は据え置き。
+英語サマリーも同日更新: digital engagement → lasting relationships with the community / digital ownership program → plum-tree ownership program。
