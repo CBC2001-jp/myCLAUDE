@@ -10,7 +10,8 @@ URL="https://www.cbc2001.com/"
 [ "$(git rev-parse --abbrev-ref HEAD)" = "main" ] || { echo "main ブランチで実行してください"; exit 1; }
 
 if [ -n "${1:-}" ]; then
-  git add -A -- . ':!jgrants-mcp' ':!.DS_Store' ':!**/.DS_Store'
+  # .gitignore 対象は自動除外。素材置き場 2026_CBC_HP/ の未追跡ファイルは意図せず公開しないよう除外
+  git add -A -- . ':!2026_CBC_HP'
   git commit -m "$1"
 fi
 
