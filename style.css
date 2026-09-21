@@ -561,6 +561,15 @@ h1, h2, h3, h4 {
   color: var(--color-text-muted);
 }
 
+.profile-info dd a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.profile-info dd a:hover {
+  opacity: 0.8;
+}
+
 .profile-info dd:last-child {
   border-bottom: none;
   margin-bottom: 0;
