@@ -33,6 +33,18 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - Google Analytics: `G-JWTRM5EE16`（`index.html` の `<head>`）
 - 外部へのデータ送信は現在なし（Web3Forms はフォーム廃止に伴い削除）
 
+### デザイン（2026-09-21 更新）
+
+- フォントは全面ゴシック体。`--font-heading` / `--font-body` とも `'Noto Sans JP', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', Meiryo, sans-serif`。明朝（Noto Serif JP）は読み込みごと廃止。見出しは `font-weight: 700`
+- 配色は濃いグリーン系。青・濃紺から全面変更した
+  - `--color-primary: #16714F`（ラベル、リンク、ボタン、タグ）
+  - `--color-primary-light: #22916A` / `--color-primary-dark: #0F5138`
+  - `--color-accent: #14532D`（バッジ、メディア掲載ラベル、目標バッジ。白文字を載せる濃色）
+  - `--color-accent-light: #3F9D6B`、`--color-bg-section-alt: #EFF6F1`
+  - フッター背景 `#122A20`
+- 残す色: News & Pickup の金系（`#8a6d00` / `#feedba`）、`--color-accent-warm: #F59E0B`、本文の `--color-text: #1E293B`
+- 色を足すときは上のトークンを使う。個別に青系や紺を持ち込まない
+
 ### 更新ワークフロー（Claude が実行する手順）
 
 1. **同期**: `git checkout main && git pull --ff-only origin main`
