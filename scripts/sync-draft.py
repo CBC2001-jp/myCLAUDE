@@ -106,6 +106,17 @@ def main() -> None:
         f"タグ: {ptags}\n",
     ]
 
+    timeline = re.findall(r'<div class="timeline-item">(.*?)</div>', s, re.S)
+    if timeline:
+        out.append("**経歴ハイライト**\n")
+        for item in timeline:
+            year = re.search(r'<span class="year">(.*?)</span>', item, re.S)
+            head = re.search(r"<h4>(.*?)</h4>", item, re.S)
+            desc = re.search(r"<p>(.*?)</p>", item, re.S)
+            label = (text(year.group(1)) + " " if year else "") + (text(head.group(1)) if head else "")
+            out.append(f"- {label}: {text(desc.group(1)) if desc else ''}")
+        out.append("")
+
     contact = re.search(r'<section class="contact".*?<h3[^>]*>(.*?)</h3>\s*<p[^>]*>(.*?)</p>', s, re.S)
     if contact:
         out += ["---\n", "## お問い合わせ\n", f"**{text(contact.group(1))}**\n", text(contact.group(2)) + "\n"]
