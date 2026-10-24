@@ -34,9 +34,9 @@
 
 ### News & Pickup（掲載順）
 
-- αU Market — みなべ梅主オーナーコレクション記事（KDDI） #project-minabe
+- αU Market — みなべ梅主オーナーコレクション記事／和歌山県みなべ町（KDDI） #project-minabe
 - 令和8年度 地域観光資源の多言語解説整備促進事業／石川県能登町（観光庁） https://www.mlit.go.jp/kankocho/kobo05_00100.html
-- 令和7年度 地域再生マネージャー派遣事業（福井県高浜町）（ふるさと財団） https://www.furusato-zaidan.or.jp/chiiki/
+- 令和7年度 地域再生マネージャー派遣事業／福井県高浜町（ふるさと財団） https://www.furusato-zaidan.or.jp/chiiki/
 
 ### 📍 福井県高浜町 令和7年度 地域再生マネージャー
 
@@ -235,3 +235,10 @@ CBC supports regional revitalization in Japan by using local food as the startin
 
 ## 2026-10-24 News & Pickup 観光庁項目の表記変更
 「観光庁「令和8年度 地域観光資源の多言語解説整備促進事業」採択／石川県能登町」→「令和8年度 地域観光資源の多言語解説整備促進事業／石川県能登町」（タグの「観光庁」とリンク先は変更なし）
+
+## 2026-10-24 News & Pickup に地域名を併記
+3項目とも「事業名／所在地」の形に統一。
+- αU Market — みなべ梅主オーナーコレクション記事／和歌山県みなべ町
+- 令和8年度 地域観光資源の多言語解説整備促進事業／石川県能登町
+- 令和7年度 地域再生マネージャー派遣事業／福井県高浜町（括弧書きから「／」に変更）
+※ 指示文は「和歌山兼みなべ町」だったが誤字と判断し「和歌山県みなべ町」とした
