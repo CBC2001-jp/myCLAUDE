@@ -46,12 +46,18 @@ def main() -> None:
         text(one(r'<p class="projects-lead[^>]*>(.*?)</p>').group(1)) + "\n",
     ]
 
-    news = re.findall(
-        r'<li>\s*<span class="news-date">(.*?)</span>\s*<a href="([^"]+)"[^>]*>(.*?)</a>\s*<span class="news-tag">(.*?)</span>',
-        s, re.S)
-    if news:
-        out.append("### News & Pickup（新しい順）\n")
-        out += [f"- {text(d)} {text(t)}（{text(tag)}） {url}" for d, url, t, tag in news]
+    news_block = re.search(r'<ul class="news-pickup-list">(.*?)</ul>', s, re.S)
+    if news_block:
+        out.append("### News & Pickup（掲載順）\n")
+        for item in re.findall(r"<li>(.*?)</li>", news_block.group(1), re.S):
+            date = re.search(r'<span class="news-date">(.*?)</span>', item, re.S)
+            link = re.search(r'<a href="([^"]+)"[^>]*>(.*?)</a>', item, re.S)
+            tag = re.search(r'<span class="news-tag">(.*?)</span>', item, re.S)
+            prefix = text(date.group(1)) + " " if date else ""
+            suffix = f"（{text(tag.group(1))}）" if tag else ""
+            label = text(link.group(2)) if link else ""
+            url = link.group(1) if link else ""
+            out.append(f"- {prefix}{label}{suffix} {url}".rstrip())
         out.append("")
 
     for card in re.findall(r'<div class="project-card fade-in">(.*?)\n            </div>\n', s, re.S):

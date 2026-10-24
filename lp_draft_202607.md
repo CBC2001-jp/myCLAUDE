@@ -32,11 +32,11 @@
 
 いま取り組んでいることは、どれも「食」から始まっています。**世界基準の品質で「食」を世界に届ける高浜、「食」を観光で訪れるきっかけにする能登、「食」で地域とのつながりを続けるみなべ。**それぞれの土地で、じっくり腰を据えて進めています。
 
-### News & Pickup（新しい順）
+### News & Pickup（掲載順）
 
-- 2026年 観光庁「令和8年度 地域観光資源の多言語解説整備促進事業」採択／石川県能登町（観光庁） https://www.mlit.go.jp/kankocho/kobo05_00100.html
-- 2025年 令和7年度 地域再生マネージャー派遣事業（福井県高浜町）（ふるさと財団） https://www.furusato-zaidan.or.jp/chiiki/
-- 2025年 αU Market — みなべ梅主オーナーコレクション（KDDI） https://market.alpha-u.io/collections/TUNAGU
+- αU Market — みなべ梅主オーナーコレクション記事掲載（KDDI） https://market.alpha-u.io/collections/TUNAGU
+- 観光庁「令和8年度 地域観光資源の多言語解説整備促進事業」採択／石川県能登町（観光庁） https://www.mlit.go.jp/kankocho/kobo05_00100.html
+- 令和7年度 地域再生マネージャー派遣事業（福井県高浜町）（ふるさと財団） https://www.furusato-zaidan.or.jp/chiiki/
 
 ### 📍 福井県高浜町 令和7年度 地域再生マネージャー
 
@@ -224,3 +224,8 @@ CBC supports regional revitalization in Japan by using local food as the startin
 - 追加: 2025年 αU Market — みなべ梅主オーナーコレクション（KDDI） https://market.alpha-u.io/collections/TUNAGU
 - 年は旧版LPの記述「農産物の年間オーナー制度（NFT）を2025年より展開中」に基づく
 - 並び順を 2026年 → 2025年（ふるさと財団）→ 2025年（KDDI）の新しい順に変更
+
+## 2026-10-24 News & Pickup を年なし表示に変更
+- 各項目の年（2025年／2026年）を削除。未使用になった `.news-pickup-list .news-date` の CSS も削除
+- αU Market の項目を「αU Market — みなべ梅主オーナーコレクション記事掲載」に変更し、一番上に配置
+- 並び: αU Market（KDDI）→ 観光庁 → ふるさと財団
