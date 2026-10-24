@@ -46,6 +46,14 @@ def main() -> None:
         text(one(r'<p class="projects-lead[^>]*>(.*?)</p>').group(1)) + "\n",
     ]
 
+    news = re.findall(
+        r'<li>\s*<span class="news-date">(.*?)</span>\s*<a href="([^"]+)"[^>]*>(.*?)</a>\s*<span class="news-tag">(.*?)</span>',
+        s, re.S)
+    if news:
+        out.append("### News & Pickup（新しい順）\n")
+        out += [f"- {text(d)} {text(t)}（{text(tag)}） {url}" for d, url, t, tag in news]
+        out.append("")
+
     for card in re.findall(r'<div class="project-card fade-in">(.*?)\n            </div>\n', s, re.S):
         loc = text(re.search(r'<div class="location">(.*?)</div>', card, re.S).group(1)).replace("\n", " ")
         out += [
