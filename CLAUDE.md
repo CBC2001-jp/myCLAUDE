@@ -35,7 +35,10 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ### デザイン（2026-09-21 更新）
 
-- フォントは全面ゴシック体。`--font-heading` / `--font-body` とも `'Noto Sans JP', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', Meiryo, sans-serif`。明朝（Noto Serif JP）は読み込みごと廃止。見出しは `font-weight: 700`
+- フォントは2書体の使い分け（2026-10-24 調整）
+  - 明朝 `--font-heading: 'Noto Serif JP', 'Hiragino Mincho ProN', 'Yu Mincho', serif`（`font-weight: 600`）: h1〜h4（ヒーロー見出し、セクション見出し、各カード見出し、代表者名、経歴ハイライト）、理念の引用 `.mission-quote`、取り組みのナンバー `.project-number`
+  - ゴシック `--font-body: 'Noto Sans JP', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', Meiryo, sans-serif`: 本文、リード文、セクションラベル、ナビ、ボタン、タグ・バッジ、実績チェック項目、メディア掲載ブロック、会社概要の表、フッター、英語サマリー
+  - 判断基準: 大きく見せる見出しと引用は明朝、読ませる文と小さなUIはゴシック
 - 配色は濃いグリーン系。青・濃紺から全面変更した
   - `--color-primary: #16714F`（ラベル、リンク、ボタン、タグ）
   - `--color-primary-light: #22916A` / `--color-primary-dark: #0F5138`
