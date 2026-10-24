@@ -251,3 +251,8 @@ CBC supports regional revitalization in Japan by using local food as the startin
 - 02本文の事業名から「観光庁」を外し、News & Pickup の表記に合わせる
 - 代表プロフィール「欧州系食品メーカー」→「欧州系冷凍パンメーカー」（経歴ハイライトと粒度を統一）
 - 03カード内の外部リンク「▶ αU Market — みなべ梅主オーナーコレクション」→「▶ αU Market でコレクションを見る」（News の同名リンクと役割を区別）
+
+## 2026-10-24 強みカードの写真の表示崩れを修正
+カードの padding は 36px 32px なのに写真側が 28px 前提の負マージンで、右に61px・上に9pxの余白が出ていた。
+`.service-card` に `--card-pad-y` / `--card-pad-x` を定義し、写真はその変数ぶん外へ広げる方式に変更。
+グローバルの `img { max-width: 100% }` に打ち消されていたため `max-width: none` を追加。カードの `overflow: hidden` で角は自動的に丸く収まる。
